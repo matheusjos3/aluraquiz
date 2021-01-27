@@ -1,9 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
-  background-color: #1C1814;
+  border: 2px solid #040114;
+  background-color: #ffffff;
   border-radius: 4px;
   overflow: hidden;
 
@@ -33,8 +34,9 @@ Widget.Header = styled.header`
   }
 `;
 
-Widget.content = styled.div`
+Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
+  color: #040114;
   & > *:first-child {
     margin-top: 0;
   }
