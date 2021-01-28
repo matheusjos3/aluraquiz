@@ -4,7 +4,7 @@
     "description": "Teste os seus conhecimentos sobre Yu Yu Hakusho",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media.giphy.com/media/w2D4gOWR2KhSo/giphy.gif",
         "title": "Como fazer um seletor por id via CSS?",
         "description": "Essa é pra aquecer",
         "answer": 2,
@@ -34,6 +34,7 @@
         "primary": "#d13059",
         "secondary": "#d74f71",
         "mainBg": "#171B35",
+        "black": "#040114",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
         "success": "#4CAF50"
