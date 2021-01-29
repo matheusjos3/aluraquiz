@@ -3,8 +3,8 @@ import styled from 'styled-components';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 2px solid #040114;
-  background-color: #ffffff;
+  border: 2px solid ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
 
@@ -36,7 +36,7 @@ Widget.Header = styled.header`
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
-  color: #040114;
+  color: ${({ theme }) => theme.colors.contrastText};
   & > *:first-child {
     margin-top: 0;
   }
@@ -53,7 +53,7 @@ Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.primary}`};
+  background-color: #1B1D36;
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;

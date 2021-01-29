@@ -1,44 +1,142 @@
 {
-    "bg": "https://vistapointe.net/images/yu-yu-hakusho-1.jpg",
-    "title": "Quiz sobre Yu Yu Hakusho",
-    "description": "Teste os seus conhecimentos sobre Yu Yu Hakusho",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/w2D4gOWR2KhSo/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#d13059",
-        "secondary": "#d74f71",
-        "mainBg": "#171B35",
-        "black": "#040114",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://wallpaperaccess.com/full/358074.jpg",
+  "title": "Quiz sobre Yu Yu Hakusho",
+  "description": "Teste os seus conhecimentos sobre Yu Yu Hakusho e divirta-se com esse quiz.",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/w2D4gOWR2KhSo/giphy.gif",
+      "title": "O anime estreou no Brasil em qual data?",
+      "description": "Certamente você já era um bebezinho na época.",
+      "answer": 2,
+      "alternatives": [
+        "19 de Janeiro de 1995",
+        "20 de Março de 1997",
+        "24 de Março de 1997",
+        "01 de Agosto de 1998"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/BlondComfortableBillygoat-size_restricted.gif",
+      "title": "Em qual canal era exibido o anime?",
+      "description": "Quem sabe faz ao-vivo.",
+      "answer": 0,
+      "alternatives": [
+        "Rede Manchete",
+        "Bandeirantes",
+        "SBT",
+        "Rede Record"
+      ]
+    },
+    {
+      "image": "https://64.media.tumblr.com/2976b72fb767b3c842514013239538ee/tumblr_otgqscHDfK1s9jnzyo1_400.gifv",
+      "title": "Qual é o nome do criador de Yu Yu Hakusho",
+      "description": "Esse é fera!.",
+      "answer": 3,
+      "alternatives": [
+        "Tsugumi Ohba",
+        "Eiichiro Oda",
+        "Akira Toriyama",
+        "Yoshihiro Togashi"
+      ]
+    },
+    {
+      "image": "https://64.media.tumblr.com/a6cfd8823a0919630cd3143f06e4cc1d/tumblr_inline_mt4n58szB91qes9bh.gif",
+      "title": "O anime possui originalmente quantos episódios?",
+      "description": "É muito episódio.",
+      "answer": 1,
+      "alternatives": [
+        "100",
+        "112",
+        "113",
+        "107"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/BitterUniqueCricket-small.gif",
+      "title": "Kazuma Kuwabara era apaixonado pela..?",
+      "description": "É o amor...",
+      "answer": 2,
+      "alternatives": [
+        "Miyuki",
+        "Keiko",
+        "Yukina",
+        "Botan"
+      ]
+    },
+    {
+      "image": "https://3.bp.blogspot.com/-LYWBgRk68pY/U4Ct7c0VorI/AAAAAAAAHzE/1R-m7OOf4ZU/s1600/Yu+Yu+Hakusho+2.gif",
+      "title": "Qual é o principal golpe de Yusuke?",
+      "description": "Eu sou mais eu né?.",
+      "answer": 3,
+      "alternatives": [
+        "Leikoudan",
+        "Rei Ken",
+        "Shottogan",
+        "Leigan"
+      ]
+    },
+    {
+      "image": "https://64.media.tumblr.com/4c7654ac8ea8b74e20611cc8502dd5b3/tumblr_ml3n7i8zbQ1rbrys3o1_500.gif",
+      "title": "Koenma é filho do..?",
+      "description": "Pedir arrego também faz parte da vida, sabia?.",
+      "answer": 2,
+      "alternatives": [
+        "Itsuki Yaminade",
+        "Kaname Hagiri",
+        "Enma Daioh",
+        "Yomi"
+      ]
+    },
+    {
+      "image": "https://64.media.tumblr.com/1a9d5d4709797d3b5a6f6ed908a71646/tumblr_mjgdasZjF71rbrys3o1_500.gif",
+      "title": "A dublagem de Yusuke foi feita por qual dublador? ",
+      "description": "Eu sou o Homem de Ferro!.",
+      "answer": 0,
+      "alternatives": [
+        "Marco Ribeiro",
+        "Duda Ribeiro",
+        "José Luiz Barbeito",
+        "Peterson Adriano"
+      ]
+    },
+    {
+      "image": "https://data.whicdn.com/images/91563369/original.gif",
+      "title": "Botan é considerada..?",
+      "description": "Mamão com açúcar.",
+      "answer": 1,
+      "alternatives": [
+        "Uma pessoa comum",
+        "Uma guia para o mundo espiritual",
+        "Uma lutadora classe B",
+        "Namorada de Yusuke"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/MiniatureUnselfishAmericanlobster-size_restricted.gif",
+      "title": "Qual desses personagens tem a mesma dublagem de Sylvester Stallone?",
+      "description": "Esta allone",
+      "answer": 2,
+      "alternatives": [
+        "Kurouko Sato",
+        "Shinobu Sensui",
+        "Toguro",
+        "Hiei"
+      ]
     }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#EC285A",
+      "secondary": "#d74f71",
+      "mainBg": "#19122F",
+      "black": "#040114",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}

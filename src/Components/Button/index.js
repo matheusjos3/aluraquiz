@@ -2,11 +2,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Button = styled.button`
-  background-color: #338495;
+  background-color: #5394E8;
   color: ${({ theme }) => theme.colors.contrastText};
-  border: 2px solid ${({ theme }) => theme.colors.black};
   border-radius: ${({ theme }) => theme.borderRadius};
-  /* border: 0; */
+  border: 0;
   width: 100%;
   padding: 10px 16px;
   font-weight: bold;
