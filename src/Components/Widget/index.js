@@ -65,6 +65,22 @@ Widget.Topic = styled.a`
   &:focus {
     opacity: .5;
   }
-`; 
+`;
+
+Widget.Result = styled.li`
+  background-color: #1B1D36;
+  margin-bottom: 8px;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  padding: 10px 15px;
+
+  &[data-status="SUCCESS"] {
+    background-color: ${({ theme }) => theme.colors.success};
+  }
+  
+  &[data-status="ERROR"] {
+    background-color: ${({ theme }) => theme.colors.wrong};
+  }
+
+`;
 
 export default Widget;
